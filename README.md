@@ -7,7 +7,7 @@ From the top left menu, Open a terminal: Applications => System Tools => Termina
 
 Type:
 
-sudo easy_install ipython==1.2.1
+*sudo easy_install ipython==1.2.1
 
 Hit enter, administrator password is cloudera.
 
@@ -15,4 +15,4 @@ Hit enter, administrator password is cloudera.
 
 Every time you need to open the pyspark shell, open a terminal and type:
 
-PYSPARK_DRIVER_PYTHON=ipython pyspark
+*PYSPARK_DRIVER_PYTHON=ipython pyspark
