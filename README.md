@@ -31,4 +31,12 @@ Verify that the output is:
 u'1.3.0'
 ```
 
+### Spark -csv Installation link:
 
+http://spark-packages.org/package/databricks/spark-csv
+
+type in terminal
+
+```
+PYSPARK_DRIVER_PYTHON=ipython pyspark --packages com.databricks:spark-csv_2.10:1.3.0
+```
